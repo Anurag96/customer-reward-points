@@ -146,7 +146,7 @@ function App() {
                    return <div className="container">
                      <div className="row">
                        <div className="col-8">
-                         <strong>Transaction Date:</strong> {tran.transactionDate} - <strong>$</strong>{tran.amount} - <strong>Points: </strong>{tran.points}
+                         <strong>Transaction Date:</strong> {tran.transactionDate} || <strong>Amount:</strong> ${tran.amount} || <strong>Points: </strong>{tran.points}
                        </div>
                      </div>
                    </div>
